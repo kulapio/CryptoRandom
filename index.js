@@ -1,4 +1,5 @@
 // Need this line for CRYPTO: true
+// No test on browser yet, but I beleive there's window.crypto and you can remove this line below
 global.crypto = require('crypto')
 
 const BigNumber = require('bignumber.js')
